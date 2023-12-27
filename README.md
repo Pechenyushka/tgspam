@@ -7,7 +7,7 @@ Spammer Telegram Bot Builder
 pkg update && pkg upgrade
 
 pkg install coreutils
-(пишем на всякий случай)
+(пишем на случай некорректной установки)
 
 apt install git
 
@@ -19,7 +19,7 @@ cd tgspam
 
 pip3 install colorama
 
-pip3 telebot
+pip3 install telebot
 
 python3 builder.py
 
