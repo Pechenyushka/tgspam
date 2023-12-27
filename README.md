@@ -7,7 +7,7 @@ Spammer Telegram Bot Builder
 pkg update && pkg upgrade
 
 pkg install coreutils 
-(пишем ТОЛЬКО если устновка git не удается)
+(пишем на всякий случай)
 
 apt install git
 
@@ -15,7 +15,7 @@ apt install python3
 
 git clone https://github.com/Pechenyushka/tgspam/
 
-cd Tgspam
+cd tgspam
 
 pip3 install colorama
 
@@ -23,7 +23,7 @@ pip3 telebot
 
 python3 builder.py
 
-1. Создаем нового бота в BotFather, копируем токен.
+1. Создаем нового бота в @BotFather, копируем токен.
 
 2. Вставляем токен в терминал.
 
@@ -33,7 +33,7 @@ python3 builder.py
 
 python3 tgspam.py
 
-5. Водим количество пар сообщений, который отправит бот после его активации.
+5. Вводим количество пар сообщений, который отправит бот после его активации.
 
 6. Вводим сообщение, которым будет спамить бот.
 
@@ -41,8 +41,9 @@ python3 tgspam.py
 
 8. Пишем /КомандаКоторуюВыПисалиВбилдере
 
-0. Для отключения бота пишем в терминал ctrl+c (или ctrl+z)
+9. Для отключения бота пишем в терминал ctrl+z (или ctrl+c)
 
 P.s Если в терминал пишется сообщение ERROR, значит телеграм частично блокирует спам запросы.
 
-Автор скрипта (Telegram: @PechenyushkaUWU)
+Автор скрипта (tg: @PechenyushkaUWU)
+© 2023 All right reserved / Все права защищены
