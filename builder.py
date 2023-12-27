@@ -8,7 +8,7 @@ import os
 def clear():
 		os.system('clear')
 def ban():
-		print(Fore.RED+"""
+		print(Fore.CYAN+"""
 	_____ ___ ___ ___  _   __  __ 
        |_   _/ __/ __| _ \/_\ |  \/  |
 	 | || (_ \__ \  _/ _ \| |\/| |
@@ -16,12 +16,12 @@ def ban():
 		 """)
 clear()
 ban()
-print(Fore.CYAN + 'by @PechenyushkaUWU')
-print(Fore.RED + '------SPAM BOT BUILDER-----------------')
+print(Fore.RED + 'by @PechenyushkaUWU')
+print(Fore.YELLOW + '------SPAM BOT BUILDER-----------------')
 print('-------------------------------------------\n')
 my_file = open('tgspam.py', 'w', encoding='utf-8')
 
-a = input(Fore.BLUE + "Введите токен бота: ")
+a = input(Fore.MAGENTA + "Введите токен бота: ")
 my_file.write("""
 import telebot
 import time
@@ -29,11 +29,11 @@ from telebot import *
 bot = telebot.TeleBot('""")
 my_file.write(a)
 my_file.write("""')
-print('by @PechenyushkaUWU')
-print('БОТ ЗАПУЩЕН!')
+print(Fore.RED + 'by @PechenyushkaUWU')
+print(Fore.GREEN + 'БОТ ЗАПУЩЕН!')
 s = input("Введите количество спам сообщений: ")
 b = input("Введите текст спам сообщения: ")
-s = int(s)  # parse string into an integer
+s = int(s)
 print("За одну команду будет отправлено", s, "сообщений")
 print("Текст собщения: ", b)
 @bot.message_handler(commands=['developer'])
