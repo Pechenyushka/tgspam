@@ -6,7 +6,7 @@ Spammer Telegram Bot Builder
 
 pkg update && pkg upgrade
 
-pkg install coreutils 
+pkg install coreutils
 (пишем на всякий случай)
 
 apt install git
