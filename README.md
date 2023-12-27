@@ -45,4 +45,4 @@ python3 tgspam.py
 
 P.s Если в терминал пишется сообщение ERROR, значит телеграм частично блокирует спам запросы.
 
-Автор скрипта (tg: @PechenyushkaUWU)
+© 2023 Автор скрипта: @PechenyushkaUWU (Telegram)
